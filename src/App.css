@@ -1,0 +1,44 @@
+.App{
+ 
+margin-top: 25vh;
+}
+
+.frameMain{
+  margin: 10px auto !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  width:400px;
+  min-height: 250px;
+  box-shadow: var(--box-shadow);
+  padding: 10px;
+}
+
+.column{
+  margin: 10px;
+  width:80px;
+  height:80px;
+  box-shadow:var(--box-shadow);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+input:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+ .cell {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+} 
+
